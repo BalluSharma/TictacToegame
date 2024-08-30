@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tic Toc Toe</title>
+    <link rel="stylesheet" href="tictoctoe.css">
+    <script type="text/javascript" src="tictoctoe.js"></script>"
+</head>
+<body id="body1">
+    <h1>Tic Tac Toe</h1>
+    <h2 id="hint">X turn</h2>
+    <audio src="sound1.wav" id="win"></audio>
+
+     <center>
+    <button onclick="window.location.reload()">Reset Game</button>
+     </center>
+
+<table>
+<tr>
+    <td onclick="ontap(this,0)"></td>
+    <td onclick="ontap(this,1)"></td>
+    <td onclick="ontap(this,2)"></td>
+</tr>
+
+<tr>
+    <td onclick="ontap(this,3)"></td>
+    <td onclick="ontap(this,4)"></td>
+    <td onclick="ontap(this,5)"></td>
+</tr>
+
+<tr>
+    <td onclick="ontap(this,6)"></td>
+    <td onclick="ontap(this,7)"></td>
+    <td onclick="ontap(this,8)"></td>
+</tr>
+
+</table>
+</body>
+</html>
